@@ -14,7 +14,7 @@ RESET = '\033[0m'  # Reset color to default
 
 # Define the range of private keys
 start_hex = "0000000000000000000000000000000000000000000000000000000000000001"
-end_hex = "0000000000000000000000000000000000000000000000000000000000001001"
+end_hex = "fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140"
 
 start_int = int(start_hex, 16)
 end_int = int(end_hex, 16)
